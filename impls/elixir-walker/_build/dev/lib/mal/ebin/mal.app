@@ -1,0 +1,9 @@
+{application,mal,
+             [{applications,[kernel,stdlib,elixir,logger]},
+              {description,"mal"},
+              {modules,['Elixir.MAL.Core','Elixir.MAL.Printer',
+                        'Elixir.MAL.Reader','Elixir.Mix.Tasks.Mal',
+                        'Elixir.Mix.Tasks.Step0Repl',
+                        'Elixir.Mix.Tasks.Step1ReadPrint']},
+              {registered,[]},
+              {vsn,"0.1.0"}]}.
